@@ -17,9 +17,12 @@ a {
 }
 
 .main-container {
-  max-width: 1400px;
-  margin: auto;
-  width: 100%;
+  /* max-width: 1900px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 98.5vw;
 }
 .layout {
   padding: 10px;
@@ -72,7 +75,7 @@ span.text-red {
   font-size: 18px;
 }
 .cart-icon {
-  font-size: 75px;
+  font-size: 25px;
   color: gray;
   cursor: pointer;
   position: relative;
@@ -406,7 +409,9 @@ span.text-red {
   transform: scale(1.1, 1.1);
 }
 .product-detail-container {
+  width: 70vw;
   display: flex;
+  justify-content: space-between;
   gap: 40px;
   margin: 40px;
   margin-top: 60px;
