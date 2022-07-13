@@ -66,6 +66,7 @@ const Cart = () => {
                     <h5>{item.name}</h5>
                     <h4>${item.price}</h4>
                   </div>
+                  <p>${item.price}</p>
                   <div className="flex bottom">
                     <div>
                       <p className="quantity-desc">

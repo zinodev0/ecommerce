@@ -51,6 +51,7 @@ export const StateContext = ({ children }) => {
       (prevTotalQuantities) => prevTotalQuantities - foundProduct.quantity
     );
     setCartItems(removeCartItem);
+    toast.error(`${qty}  ${product.name} removed the cart.`);
   };
 
   const toggleCartItemQuantity = (id, value) => {
